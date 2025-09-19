@@ -1,0 +1,735 @@
+Array
+(
+)
+Array
+(
+)
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instr%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruc%'
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruct%'
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Inst%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Final Output: ["Flight Instructor"]
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fligh%'
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flig%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Ins%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight I%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight In%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instructo%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instru%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%sho%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%shop%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%sh%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%shopr%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%shopr\%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%shopr%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%shop%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%sho%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%sh%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%flig%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fligh%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%flig%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instructo%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruct%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruc%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instr%'
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Inst%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Ins%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight I%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight In%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instru%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruc%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instr%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Ins%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instru%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight I%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruct%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instructo%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Inst%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight In%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Schoo%'
+Results: Array
+(
+    [0] => Flight School
+)
+
+Final Output: ["Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Sch%'
+Results: Array
+(
+    [0] => Flight School
+)
+
+Final Output: ["Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Sc%'
+Results: Array
+(
+    [0] => Flight School
+)
+
+Final Output: ["Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flig%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight S%'
+Results: Array
+(
+    [0] => Flight School
+)
+
+Final Output: ["Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Scho%'
+Results: Array
+(
+    [0] => Flight School
+)
+
+Final Output: ["Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fligh%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instructo%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruc%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instruct%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instr%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Inst%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight In%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Ins%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight I%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fligh%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flig%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight Instru%'
+Results: Array
+(
+    [0] => Flight Instructor
+)
+
+Final Output: ["Flight Instructor"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%Flight%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fl%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%fli%'
+Results: Array
+(
+    [0] => Flight Instructor
+    [1] => Flight School
+)
+
+Final Output: ["Flight Instructor","Flight School"]
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%AS%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA F%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA FA%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA FAR%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA FAR/%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA FAR/A%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA FAR/AI%'
+Results: Array
+(
+)
+
+Final Output: []
+Query: SELECT DISTINCT service_type FROM services WHERE service_type LIKE '%ASA FAR/AIM%'
+Results: Array
+(
+)
+
+Final Output: []

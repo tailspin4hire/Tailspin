@@ -1,0 +1,57 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Set the base directory (adjust if necessary)
+RewriteBase /
+
+RewriteRule ^([^/]+)/([0-9]+)$ aircraft_details.php?id=$2 [L,QSA]
+RewriteRule ^parts/([^/]+)/([0-9]+)$ parts_details.php?part_id=$2 [L,QSA]
+# Engine URL: /engines/Rotax_912/45
+RewriteRule ^engines/([^/]+)/([0-9]+)$ engine_details.php?id=$2 [L,QSA]
+
+# Redirect root to index.php
+RewriteRule ^$ index.php [L]
+RewriteRule ^index/?$ index.php [L]
+
+# Remove .php extension and ensure proper redirection
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]
+
+# Redirect specific sections to avoid directory inheritance issues
+RewriteRule ^aircraft/?$ /aircraft.php [L]
+RewriteRule ^parts/?$ /parts.php [L]
+RewriteRule ^engines/?$ /engines.php [L]
+RewriteRule ^contacts/?$ /contact_us.php [L]
+RewriteRule ^faq/?$ /faq.php [L]
+RewriteRule ^cart/?$ /cart.php [L]
+RewriteRule ^checkout/?$ /checkout.php [L]
+
+# Redirect client/frontend sections
+RewriteRule ^wishlist/?$ /frontend/wishlist.php [L]
+RewriteRule ^orders/?$ /frontend/orders.php [L]
+RewriteRule ^shipping/?$ /frontend/shipping.php [L]
+
+# Redirect vendor dashboard sections
+RewriteRule ^vendor/dashboard/?$ /vendor/dashboard.php [L]
+RewriteRule ^vendor/add_product/?$ /vendor/add_product.php [L]
+RewriteRule ^vendor/manage_products/?$ /vendor/manage_products.php [L]
+
+# Redirect admin dashboard sections
+RewriteRule ^admin/dashboard/?$ /admin/dashboard.php [L]
+RewriteRule ^admin/manage_vendors/?$ /admin/manage_vendors.php [L]
+
+# Redirect for support system
+RewriteRule ^support/create_ticket/?$ /support/create_ticket.php [L]
+RewriteRule ^support/view_tickets/?$ /support/view_tickets.php [L]
+
+# Redirect payments
+RewriteRule ^payments/gateway/?$ /payments/gateway.php [L]
+RewriteRule ^payments/confirmation/?$ /payments/confirmation.php [L]
+
+# Redirect shipping
+RewriteRule ^shipping/integration/?$ /shipping/integration.php [L]
+RewriteRule ^shipping/tracking/?$ /shipping/tracking.php [L]
+
+# Fallback for 404 errors
+ErrorDocument 404 /404.html

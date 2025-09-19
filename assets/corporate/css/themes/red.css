@@ -1,0 +1,377 @@
+a {
+	color:blue;
+}
+a:hover {
+	color:blue;
+}
+.pre-header a:hover {
+	color:blue;
+}
+.shop-currencies a.current {
+	color:blue;
+}
+.header-navigation ul > li.active > a,
+.header-navigation ul > li > a:hover,
+.header-navigation ul > li > a:focus,
+.header-navigation ul > li.open > a,
+.header-navigation ul > li.open > a:hover,
+.header-navigation ul > li.open > a:focus {
+	color:blue;
+}
+.header-navigation li.menu-search i:hover {
+	color:blue;
+}
+.sidebar a:hover {
+	color:blue;
+}
+.sidebar .dropdown.open .dropdown-toggle:hover {
+	color:blue;
+}
+.sidebar-menu .dropdown-menu li > a:hover, .sidebar-menu .dropdown-menu li > a:focus, .sidebar-menu li.active > a, .sidebar-menu li.active > a:hover {
+	color:blue;
+}
+.content-page a:hover, 
+.sidebar2 a:hover {
+	color:blue;
+}
+.content-page .link, .content-page .link:hover, .content-page .link:active {
+	color:blue;
+}
+.page-404 .number,
+.page-500 .number {
+	color:blue;
+}
+.content-form-page a:hover {
+	color:blue;
+}
+.quote-v1 a.btn-transparent:hover {
+  background:blue;
+}
+.recent-work h2 a:hover {
+	color:blue;
+}
+.recent-work .recent-work-item .fa:hover {
+	color:blue;
+}
+.our-clients h2 a:hover {
+	color:blue;
+}
+.front-team h3 strong {
+  color:blue;
+}
+.ecommerce .header-navigation ul > li.active > a,
+.ecommerce .header-navigation ul > li > a:hover,
+.ecommerce .header-navigation ul > li > a:focus,
+.ecommerce .header-navigation ul > li.open > a,
+.ecommerce .header-navigation ul > li.open > a:hover,
+.ecommerce .header-navigation ul > li.open > a:focus {
+	color:blue;
+}
+.product-item h3 a:hover {
+	color:blue;
+}
+.checkout-page a:hover {
+	color:blue;
+}
+
+
+.langs-block-others:after { 
+	border-bottom: 8px solid blue;
+}
+.header-navigation > ul > li.dropdown:hover > a:after { 
+  border-bottom: 8px solid blue;
+}
+.header-navigation .dropdown-menu > li > a:hover,
+.header-navigation .dropdown-menu > li.active > a,
+.header-navigation .header-navigation-content .header-navigation-col li > a:hover,
+.header-navigation .header-navigation-content .header-navigation-col li.active > a {
+  background: blue;
+  color: #fff;
+}
+.header-navigation .dropdown-menu .header-navigation-content-ext li > a:hover,
+.header-navigation .dropdown-menu .header-navigation-content-ext li.active > a {
+  background: #fff;
+  color: blue;
+}
+.header-navigation .search-box:after { 
+	border-bottom: 8px solid blue;
+}
+.header-navigation .search-box {
+	border-top: solid 2px blue;
+}
+.title-wrapper h1 span {
+	color: blue;
+}
+.breadcrumb > .active {
+	color: blue;
+}
+.form-info h2 em {
+	color: blue;
+}
+.nav-tabs {
+	border-color: blue;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background: blue;
+}
+.content-search h1 em {
+	color: blue;
+}
+.recent-work .recent-work-item:hover a.recent-work-description {
+	background: blue;
+}
+.testimonials-v1 blockquote:after { 
+  background-color: blue;
+}
+.testimonials-v1 span.testimonials-name {
+	color: blue;
+}
+.search-result-item h4 a {
+	color: blue;
+}
+.top-cart-content:after { 
+	border-bottom: 8px solid blue;
+}
+.goods-data a,
+.checkout-page .checkout-description a {
+	color: blue;
+}
+.product-page .review a {
+	color: blue;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background: blue;
+    color: #fff;
+}
+.list-view-sorting a {
+	background: #fff;
+	color: blue;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: blue;
+}
+::selection {
+  color: #fff;
+  background: blue;
+}
+.steps-block ::-moz-selection {
+  color: blue;
+  background: #fff;
+}
+.steps-block ::selection {
+  color: blue;
+  background: #fff;
+}
+
+.owl-buttons .owl-prev:hover {
+    background-color: blue;
+}
+.owl-buttons .owl-next:hover {
+    background-color: blue;
+}
+.steps-block-red {
+	background: blue;
+}
+.pre-footer .photo-stream img:hover {
+	border-color: blue;
+}
+.pre-footer-light dl.f-twitter dd a {
+	color: blue;
+}
+.pre-footer-light address a {
+	color: blue;
+}
+.testimonials-v1 .left-btn:hover {
+    background-color: blue;
+}
+.testimonials-v1 .right-btn:hover {
+    background-color: blue;
+}
+.blog-tags li i,
+.blog-info li i {
+  color: blue;
+}
+.blog-posts .more,
+.blog-sidebar .more {
+	color: blue;
+}
+.recent-news h3 a {
+	color: blue;
+}
+.blog-photo-stream li img:hover {
+  border-color: blue;
+}
+.blog-tags li a:hover {
+  color: #fff;
+  background: blue;
+}
+.blog-tags li a:hover:after {
+  border-left-color: blue;
+}
+.sidebar-categories li > a:hover,
+.sidebar-categories li.active > a,
+.sidebar-categories li.active:hover > a {
+  color: blue;
+}
+.blog-item blockquote {
+  border-color: blue;
+}
+.blog-item h4.media-heading span a {
+    color: blue;
+}
+.front-steps-wrapper .front-step1 {
+	background: blue;
+}
+.pricing-active {
+  border: 3px solid blue;
+  box-shadow: 7px 7px rgba(232, 77, 22, 0.2);
+}
+.pricing:hover {
+  border: 3px solid blue;
+}
+.pricing:hover h4 {
+  color: blue;
+}
+.pricing-head h3 {
+  background: blue;
+}
+.pricing-head-active h4 {
+  color: blue;
+}
+.pricing-content li i {
+  color: blue;
+}
+.top-cart-block .fa-shopping-cart {
+	background: blue;
+}
+.product-item .btn:hover {
+	background: blue;
+}
+.pi-price {
+	color: blue;
+}
+.product-item .add2cart:hover {
+	color: #fff !important;
+	background: blue !important;
+	border-color: blue;
+}
+.goods-page-price strong, 
+.goods-page-total strong,
+.checkout-price strong,
+.checkout-total strong {
+	color: blue;
+}
+.shopping-total strong,
+.checkout-total-block strong {
+	color: blue;
+}
+.compare-item strong {
+	color: blue;
+}
+.sidebar-products .price {
+    color: blue;
+}
+.price-availability-block .price strong {
+	color: blue;
+}
+
+
+.require {
+	color: blue;
+}
+.content-form-page .form-control:focus {
+	border: solid 1px blue;
+}
+.content-search input:focus {
+	border: solid 1px blue;
+}
+
+.btn-primary {
+	background: blue;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	background: blue;
+}
+
+.header-navigation .dropdown-menu > li:first-child {
+    border-top: 2px solid blue;
+}
+.front-steps-wrapper .front-step1:after {
+    border-left: 15px solid blue;
+}
+
+.del-goods:hover,
+.add-goods:hover {
+	background-color: blue;
+}
+
+.sidebar a:hover > .fa-angle-down {
+	background-position: -11px 0;
+}
+.sidebar .collapsed:hover > .fa-angle-down {
+	background-position: -11px -37px;
+}
+.top-cart-content {
+	border-top: solid 2px blue;
+}
+
+.front-skills .progress-bar {
+  background: blue;
+}
+
+.service-box-v1:hover {
+  background: blue;
+}
+
+.header .mobi-toggler:hover {
+  background-color: blue;
+  border-color: blue;
+}
+
+@media (max-width: 1024px) {
+	.header .header-navigation li > a:hover,
+	.header .header-navigation li.active > a,
+	.header .header-navigation li.open > a:hover {
+		color: blue !important;
+	}
+}
+
+.faq-tabbable {
+  border-left: solid 2px blue;
+}
+.faq-tabbable li:hover a,
+.faq-tabbable li.active a{
+  background: blue;
+}
+.faq-tabbable li.active:after {
+  border-left: 6px solid blue;
+}
+
+.mix-filter li:hover, .mix-filter li.active {
+    background: blue;
+    color: #fff;
+}
+.mix-grid .mix .mix-details {
+	background: blue;
+}
+.mix-grid .mix a.mix-link, 
+.mix-grid .mix a.mix-preview {
+  background: blue;
+}
+.langs-block-others {
+	border-top: solid 2px blue;
+}
+.brands .owl-buttons .owl-prev:hover {
+    background-position: 18px -217px;
+}
+.brands .owl-buttons .owl-next:hover {
+    background-position: -249px -217px;
+}
+.header-navigation ul > li.active > a/*,
+.ecommerce .header-navigation ul > li.active > a*/ {
+	border-bottom: 2px solid blue;
+}
